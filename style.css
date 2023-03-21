@@ -79,14 +79,14 @@ body {
 @media (max-width: 800px){
   .logo-holder {
     background-color: #fff;
-    margin-left: 110px;
+    margin-left: 100px;
     width: 450px;
     height: 100px;
     border-radius: 15px;
   }
 
   .login-form{
-    margin-left: 110px;
+    margin-left: 100px;
     background-color: white;
     border-radius: 15px;
     width: 450px;
