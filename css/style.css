@@ -52,9 +52,13 @@ body {
   right: 0;
 }
 
-@media (max-width: 800){
+@media (max-width: 520px){
   .half-background {
     display: block;
+    overflow: hidden;
+  }
+  .fullscreen-background {
+    display: none;
     overflow: hidden;
   }
   
@@ -77,7 +81,7 @@ body {
   height: auto;
 }
 
-@media (max-width: 800){
+@media (max-width: 520px){
   .login-container {
     top: 3%;
   }
@@ -97,12 +101,14 @@ body {
 .logo-holder-logo {
   width: 232px;
   height: 60px;
+  cursor: pointer;
 }
 
 .login-form-logo{
   width: 120px;
   margin-top: 50px;
   display: none;
+  cursor: pointer;
 }
 
 .username,
@@ -277,7 +283,7 @@ body {
   color: white;
 }
 
-@media (max-width: 800px){
+@media (max-width: 520px){
   .logo-holder {
     background-color: #fff;
     margin-left: 100px;
