@@ -556,15 +556,19 @@ body {
 
   .fa-facebook {
     opacity: 0;
+    overflow: hidden;
   }
   .fa-linkedin {
     opacity: 0;
+    overflow: hidden;
   }
   .fa-twitter {
     opacity: 0;
+    overflow: hidden;
   }
   .fa-youtube-play {
     opacity: 0;
+    overflow: hidden;
   }
 }
 
