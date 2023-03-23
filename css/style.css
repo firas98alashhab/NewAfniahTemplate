@@ -110,7 +110,7 @@ html {
 .login-form-logo{
   width: 120px;
   margin-top: 50px;
-  display: block;
+  display: none;
   cursor: pointer;
 }
 
@@ -266,6 +266,7 @@ html {
 }
 
 .fa-youtube-play {
+  display: block;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 6px;
@@ -282,6 +283,7 @@ html {
 }
 
 .fa-youtube-play:hover {
+  display: block;
   background: #585858;
   color: white;
 }
@@ -399,6 +401,7 @@ html {
     bottom: 1%;
   }
   .fa-youtube-play {
+    display: block;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 6px;
@@ -562,16 +565,16 @@ html {
   }
 
   .fa-facebook {
-    display: none;
+    opacity: 0;
   }
   .fa-linkedin {
-    display: none;
+    opacity: 0;
   }
   .fa-twitter {
-    display: none;
+    opacity: 0;
   }
   .fa-youtube-play {
-    display: none;
+    opacity: 0;
   }
 }
 
