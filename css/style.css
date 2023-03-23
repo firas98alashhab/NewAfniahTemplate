@@ -6,11 +6,6 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: -webkit-fill-available;
-}
-
-html {
-  height: -webkit-fill-available;
 }
 
 .usererror {
@@ -274,7 +269,7 @@ html {
   .login-container {
     top: 3%;
   }
-  
+
   .logo-holder {
     background-color: #fff;
     margin-left: 100px;
