@@ -408,7 +408,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 900px) and (orientation: landscape) {
+@media only screen and (max-width: 850px) and (orientation: landscape) {
   .half-background {
     display: block;
     overflow: hidden;
