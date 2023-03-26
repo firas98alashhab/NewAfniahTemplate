@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="js/auth.js"></script>
+  <script defer src="init.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h3>Dashboard</h3>
+      <div class="user">
+        <div class="drop-down-btn" onclick="toggleMenu()">
+          <img class="user-img" src="images/user-image.jfif" alt="profile image" width="45px">
+          <p>Admin1001</p>
+          <i class='bx bxs-down-arrow'></i>
+        </div>
+        <div class="sub-menu-wrap" id="subMenu">
+          <div class="sub-menu">
+            <a href="#" class="sub-menu-link">About</a>
+            <a href="#" class="sub-menu-link">Support</a>
+            <a href="#" class="sub-menu-link">Change Password</a>
+            <a href="index.html" class="sub-menu-link logout">Logout</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <nav class="sidebar">
+    <section>
+      <div class="image-text">
+        <span class="image">
+          <img src="images/logo.png" alt="logo">
+        </span>
+      </div>
+
+      <i class='bx bx-chevron-right toggle'></i>
+    </section>
+
+    <div class="menu-bar">
+      <div class="menu">
+        <li class="search-box">
+            <i class='bx bx-search-alt icon' ></i>
+            <input type="search" placeholder="Search...">
+        </li>
+        <ul class="menu-links">
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bxs-user-badge icon'></i>
+              <span class="text nav-text">Admin</span>
+            </a>  
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='fas fa-users icon'></i>
+              <span class="text nav-text">PIM</span>
+            </a>  
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bxs-shopping-bag icon'></i>
+              <span class="text nav-text">Leave</span>
+            </a>  
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bxs-timer icon' ></i>
+              <span class="text nav-text">Time</span>
+            </a>  
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='fas fa-user-clock icon'></i>
+              <span class="text nav-text">Recruitment</span>
+            </a>  
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='fa fa-info-circle icon'></i>
+              <span class="text nav-text">My Info</span>
+            </a>  
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class="fa fa-line-chart icon"></i>
+              <span class="text nav-text">Performance</span>
+            </a>  
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-home icon' ></i>
+              <span class="text nav-text">Dashboard</span>
+            </a>  
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='fa fa-address-book-o icon'></i>
+              <span class="text nav-text">Directory</span>
+            </a>  
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-cog icon' ></i>
+              <span class="text nav-text">Maintenance</span>
+            </a>  
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-comment-dots icon'></i>
+              <span class="text nav-text">Buzz</span>
+            </a>  
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+      subMenu.classList.toggle("open-menu");
+    }
+  </script>
+</body>
+</html>

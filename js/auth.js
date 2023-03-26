@@ -9,7 +9,7 @@ class Auth {
     if(auth != 1) {
       window.location.replace("/");
     } else {
-      document.querySelector("body").style.display = "flex";
+      document.querySelector("body").style.display = "block";
     }
   }
 
