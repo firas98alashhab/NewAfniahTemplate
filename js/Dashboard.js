@@ -18,6 +18,7 @@ toggle.addEventListener("click", () => {
 function toggleMenu(){
   subMenu.classList.toggle("open-menu");
 }
+
 /*
 function sideBarClose(){
   if(window.matchMedia("max-width: 520px")){
@@ -26,14 +27,14 @@ function sideBarClose(){
   sidebar.style.opacity = "0";
   }
 }
-
+*/
 function sideBarOpen(){
   if(window.matchMedia("max-width: 520px")){
     sidebar.style.width = "250px";
     sidebar.style.opacity = "1";
   }
 }
-
+/*
 if(window.matchMedia("min-width: 1020px")){
   sidebar.style.opacity = "1";
   sidebar.style.width = sidebar;
