@@ -248,7 +248,7 @@ header nav div p{
   padding: 80px 80px;
 }
 
-@media (max-width: 520px){
+@media (max-width: 720px){
   header nav .drop-down-btn p{
     display: none;
   }
@@ -268,10 +268,12 @@ header nav div p{
   display: none;
 }
 
-@media (max-width: 520px){
+/*
+@media (max-width: 720px){
   .sidebar.close{
     width: 250px;
   }
+  
   .toggle{
     display: none;
   }
@@ -319,3 +321,4 @@ header nav div p{
     margin-left: -260px;
   }
 }
+
